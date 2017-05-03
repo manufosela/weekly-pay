@@ -1,0 +1,27 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /opt/node-v6.9.1-linux-x64/bin/node /opt/node/bin/firebase serve
+[debug] CLI Version:  3.6.1
+[debug] Platform:     linux
+[debug] Node Version: v6.9.1
+[debug] Time:         Sun Apr 30 2017 09:44:34 GMT+0200 (CEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/weekly-pay  
+ Sun Apr 30 2017 09:44:34 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/weekly-pay/tokens  
+ Sun Apr 30 2017 09:44:42 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/manu/polymer_ws/weekly-pay
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/weekly-pay  
+ Sun Apr 30 2017 09:44:47 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/894361172363/clients/_:getWebAppConfig  
+ Sun Apr 30 2017 09:44:57 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000

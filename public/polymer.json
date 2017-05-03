@@ -1,0 +1,11 @@
+{
+ 	"entrypoint": "index.html",
+ 	"shell": "./src/weeklypay.html",
+ 	"fragments": [
+		"./src/weeklypay-view1.html",
+		"./src/weeklypay-view2.html",
+		"./src/weeklypay-view3.html"
+
+	]
+}
+
